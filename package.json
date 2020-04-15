@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-passport-react",
+  "version": "1.0.0",
+  "description": "react next js and passport js authentication. LinkedInStrategy, FacebookStrategy, LocalStrategy  added",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/server.js",
+    "build": "next build ./src",
+    "start": "NODE_ENV=production node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Ulvi Şahin AKSOY <sahinaksoy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.9.4",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "dotenv": "^8.0.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^8.1.0",
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.1.0",
+    "passport-facebook": "^3.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "uid-safe": "^2.1.5"
+  }
+}
